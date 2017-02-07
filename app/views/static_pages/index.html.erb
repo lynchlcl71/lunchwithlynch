@@ -1,3 +1,47 @@
-<h1>Lunch With Lynch</h1>
-<h2>Lunch with Lynch is partnered with the Fraternal Order of Police Lodge #7 - Cape May County</h2>
-<%= image_tag("racebike.jpg", class: "img-responsive my image") %>
+<div class = "container-fluid">
+      <div class="section-wrap" id="home">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+               <%= image_tag 'prek3.jpg', class: 'img-responsive' %>
+              <div class="carousel-caption">
+                <h1>Lunch With Lynch</h1>
+                <h1>Wildwood, New Jersey</h1>
+              </div>
+            </div>
+            <div class="item">
+               <%= image_tag 'prek2.jpg', class: 'img-responsive' %>
+              <div class="carousel-caption">
+               <h1>Lunch With Lynch</h1>
+                <h1>Wildwood, New Jersey</h1>
+               </div>
+            </div>
+            <div class="item">
+               <%= image_tag 'prek.jpg', class: 'img-responsive' %>
+              <div class="carousel-caption">
+                <h1>Lunch With Lynch</h1>
+                <h1>Wildwood, New Jersey</h1>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+     </div>

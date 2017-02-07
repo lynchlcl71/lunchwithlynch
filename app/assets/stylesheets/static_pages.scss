@@ -4,19 +4,37 @@
 
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: blue;
-  font-size: 24px;
+  color: yellow;
+  font-size: 16px;
   text-align: center;
 }
 
-.footer {
+ footer {
   position: absolute;
+  text-align: center;
   height: 60px;
-  background-color: gray;
+  background-color: #0e19ed;
+  color: white;
   width: 100%;
+  font-size: 18px;
+  padding-top: 20px;
 }
 
 #text {
   padding-top: 8px;
   font-size: 25px;
+}
+
+.navbar {
+  background-color: #0e19ed;
+}
+
+.carousel-inner {
+  height: 50%;
+}
+
+.item {
+    display: block;
+    margin: auto;
+    width: 40%;
 }

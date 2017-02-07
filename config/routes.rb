@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'static_pages/leader'
+
+  get 'static_pages/photo'
+
+  get 'static_pages/event'
+
   get 'static_pages/what'
 
   get 'static_pages/partner'
